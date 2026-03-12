@@ -20,7 +20,7 @@ const NavBar = () => {
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container style={{ justifyContent: 'evenly', padding: '0px', margin: '5px' }}>
         <Navbar.Brand>
-          <h1 className="title">Nurse Plus</h1>
+          <h1 className="title">MedTek Hayward</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -38,8 +38,26 @@ const NavBar = () => {
             >
               <NavDropdown.Item className="nav-item active" style={dropdownStyle}>
                 <Link className="nav-item" style={linkStyle} to="/gallery">
-                  <button className="nav-link rounded">Lessons</button>
+                  <button className="nav-link rounded">Steam</button>
                 </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">Ethylene Oxide (EO)</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">Low-Temp Gas Plasma(LTGP)</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">Low-Temp Hydrogen Peroxide (V-PRO)</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">Hydrogen Peroxide Ozone</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">IUSS</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/gallery">
+                  <button className="nav-link rounded">DRY HEAT</button>
+                </Link> 
               </NavDropdown.Item>
             </NavDropdown>
 

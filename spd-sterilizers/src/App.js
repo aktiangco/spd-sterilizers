@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Error from './components/Error';
 import Gallery from './components/Gallery';
+import Dryheat from './components/topics/Dryheat';
+import Eo from './components/topics/Eo';
 import './App.css';
 
 const App = () => (

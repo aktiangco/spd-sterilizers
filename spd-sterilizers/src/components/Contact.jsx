@@ -18,12 +18,12 @@ const Contact = () => {
                         Thank you for visiting our website!
                     </Card.Text>
                     <Card.Text>
-                        We would love to hear from you. If you have any questions, comments, or feedback, please feel free to reach out to us using the form below. Our team will get back to you as soon as possible.                       
+                        We would love to hear from you. If you have any questions, comments, or feedback, please feel free to reach out to us. Our team will get back to you as soon as possible.                       
                     </Card.Text>
                     <Card.Text>
                         Contact Information:
                         <br />
-                        Email: <a href="*" className=" button btn">Nurse-Plus@wecare.com</a>
+                        Email: <a href="*" className=" button btn">MedtekCollegeHayward@MDH.eduu</a>
                         <br />
                         Phone: <a href="*" className=" button btn">202.555.0131</a>                      
                     </Card.Text>
@@ -32,7 +32,7 @@ const Contact = () => {
                     </Card.Text>
                     <Card.Text>
                         Best regards,
-                        Nurse Plus
+                        Medtek College Hayward
                     </Card.Text>
                 </ Card.Body>
             </ Card>
