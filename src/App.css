@@ -1,5 +1,5 @@
 html, body, #root {
-  background-color: black;
+  background-color: rgb(199, 199, 191);
   height: 100%;
   margin: 0;
 }
@@ -10,21 +10,71 @@ html, body, #root {
   min-height: 100vh;
 }
 
+/* NAVBAR stays at top */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-dark .dropdown-menu {
+  background-color: #2c2c2c;
+}
+
+.navbar-dark .dropdown-item {
+    color: #52dcc5;
+    transition: background-color 0.2s ease; 
+}
+
+.navbar-dark .dropdown-item:hover {
+  background-color: #52dcc5;
+  color: black;
+}
+
 .main-container {
   flex: 1;
   padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-dark .custom-btn {
+  background-color: #52dcc5;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-dark .custom-btn:hover {
+  background-color: #72463e;
+  color: white;
+}
+
+.method-link {
+  color: #52dcc5;
+  background-color: black;
+  
+}
 
 .method-link:hover {
-  background-color: #52dcc5;
-  color: rgb(216, 216, 86);
+  background-color: #8d9392;
+  color: black;
   text-decoration: underline;
 }
 
 .card.custom-card {
   color: #52dcc5;
-  background-color: gray;
+  background-color: rgb(73, 73, 73);
   border: 2px solid black;
   height: 100%;
 }
@@ -44,13 +94,28 @@ html, body, #root {
 .section-image {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border: 2px solid black;
+  border-radius: 10%;
   object-fit: cover;
 }
+
 
 .footer {
   background-color: rgb(93, 95, 100);
   color: white;
   text-align: center;
   padding: 1px;
+}
+
+/* FOOTER stays at bottom */
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(93, 95, 100);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  z-index: 1000;
 }

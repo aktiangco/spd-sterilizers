@@ -14,6 +14,7 @@ import Ozone from './components/topics/Ozone';
 import Steam from './components/topics/Steam';
 import Vpro from './components/topics/Vpro';
 import Iuss from './components/topics/Iuss';
+import Podcast from './components/topics/Podcast';
 import './App.css';
 
 const App = () => (
@@ -33,6 +34,7 @@ const App = () => (
         <Route path='/steam' element={<Steam />} />
         <Route path="/vpro" element={<Vpro />} />
         <Route path="/iuss" element={<Iuss />} />
+        <Route path="/podcast" element={<Podcast />} />
       </Routes>
     </div>
     <Footer />

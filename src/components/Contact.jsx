@@ -1,52 +1,62 @@
-import React, { useState } from 'react';
-import Card from 'react-bootstrap/Card';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import emailjs from '@emailjs/browser';
+import React, { useState } from "react";
+import Card from "react-bootstrap/Card";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
+    setError("");
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send(
-      'service_owtck3r',
-      'template_lhh96go',
-      formData,
-      'k5Ua3QxLrv-6FT1-4'
-    )
-    .then(() => {
-      alert("Survey sent successfully!");
-      setFormData({ name:'', email:'', message:'' });
-    })
-    .catch(() => {
-      alert("Failed to send message.");
-    });
+    if (!formData.name || !formData.email || !formData.message) {
+      alert("Please fill in all fields before sending.");
+      return;
+    }
+
+    emailjs
+      .send(
+        "service_owtck3r",
+        "template_lhh96go",
+        formData,
+        "k5Ua3QxLrv-6FT1-4"
+      )
+      .then(() => {
+        alert("Survey sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch(() => {
+        setError("Failed to send message. Please try again.");
+      });
   };
 
   return (
     <div>
       <Card className="container custom-card">
         <Card.Body>
-          <Card.Title><h1>Contact</h1></Card.Title>
-          <Card.Text>If you have any questions, feel fill in the form bellow.</Card.Text>
+          <Card.Title>
+            <h1>Contact</h1>
+          </Card.Title>
+          <Card.Text>
+            If you have any questions, feel fill in the form bellow.
+          </Card.Text>
 
           <Form onSubmit={handleSubmit}>
-
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>
               <Form.Control
@@ -54,6 +64,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
 
@@ -64,6 +75,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
 
@@ -75,15 +87,22 @@ const Contact = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
 
-            <Button variant="light" type="submit">
+            <Button
+              className="rounded"
+              type="submit"
+              style={{
+                backgroundColor: "#52dcc5",
+                border: "none",
+                color: "black",
+              }}
+            >
               Send Feedback
             </Button>
-
           </Form>
-
         </Card.Body>
       </Card>
     </div>

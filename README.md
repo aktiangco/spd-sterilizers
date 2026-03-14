@@ -21,3 +21,7 @@ This website shares information about sterilizers, their purpose in sterile proc
 ```bash
 npm install
 npm start
+
+## Images by
+- ChatGpt
+- 
