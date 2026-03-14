@@ -15,6 +15,7 @@ import Steam from './components/topics/Steam';
 import Vpro from './components/topics/Vpro';
 import Iuss from './components/topics/Iuss';
 import Podcast from './components/topics/Podcast';
+import Group from './components/topics/Group';
 import './App.css';
 
 const App = () => (
@@ -35,6 +36,7 @@ const App = () => (
         <Route path="/vpro" element={<Vpro />} />
         <Route path="/iuss" element={<Iuss />} />
         <Route path="/podcast" element={<Podcast />} />
+        <Route path="/group" element={<Group />} />
       </Routes>
     </div>
     <Footer />

@@ -57,7 +57,9 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/podcast">
               Podcast Report
             </Nav.Link>
-
+            <Nav.Link as={Link} to="/group">
+              Group Project
+            </Nav.Link>
             <Nav.Link as={Link} to="/about">
               About Me
             </Nav.Link>

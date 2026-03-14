@@ -99,6 +99,10 @@ html, body, #root {
   object-fit: cover;
 }
 
+.group-image {
+  border-radius: 50%;
+}
+
 
 .footer {
   background-color: rgb(93, 95, 100);
