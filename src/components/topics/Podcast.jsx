@@ -37,8 +37,8 @@ function Podcast() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Youtube size={40} style={{ padding: "5px" }} />
-                    <div style={{ padding: "5px" }}>Link here</div>
+                    <Youtube size={50} style={{ padding: "0px" }} />
+                    <div style={{ padding: "2px" }}>Link here</div>
                   </a>
                 </div>
               </div>

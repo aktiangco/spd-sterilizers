@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
-import machine from "../../assets/images/dryheat-machine.png";
-import cycle from "../../assets/images/dryheat-cycle.png";
+import machine from "../../assets/images/vpro-machine.png";
+import cycle from "../../assets/images/ltgp-cycle.png";
 
 const Vpro = () => {
   return (

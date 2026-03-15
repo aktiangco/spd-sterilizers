@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/dryheat-machine.png"
 import cycle from "../../assets/images/dryheat-cycle.png"
 import loading from "../../assets/images/loading.png"

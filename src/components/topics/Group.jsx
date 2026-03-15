@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import group from "../../assets/images/group.png";
-import me from "../../assets/images/me.png";
-import adiel from "../../assets/images/adiel.png";
-import vinessa from "../../assets/images/vinessa.png";
-import john from "../../assets/images/john.png";
-import cesar from "../../assets/images/cesar.png";
-//import eric from "../../assets/images/eric.png";
+import group from "../../assets/profile/group.png";
+import me from "../../assets/profile/me.png";
+import adiel from "../../assets/profile/adiel.png";
+import vinessa from "../../assets/profile/vinessa.png";
+import john from "../../assets/profile/john.png";
+import cesar from "../../assets/profile/cesar.png";
+//import eric from "../../assets/profile/eric.png";
 
 const Group = () => {
   return (
@@ -37,7 +37,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "black", color: "white" }}
             >
-              <img src={john} className="section-image group-image" style={{ height: " 150px", width: "150px" }} />
+              <img src={john} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}/>
               <div>
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
@@ -65,7 +65,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "blue", color: "white" }}
             >
-              <img src={adiel} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
+              <img src={adiel} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}  />
               <div>
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
@@ -92,7 +92,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#50c878", color: "black" }}
             >
-              <img src={john} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
+              <img src={john} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}   />
               <div>
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
@@ -119,7 +119,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "red", color: "black" }}
             >
-              <img src={cesar} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
+              <img src={cesar} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}   />
               <div>
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
@@ -146,7 +146,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "pink", color: "black" }}
             >
-              <img src={vinessa} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
+              <img src={vinessa} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}  />
               <div>
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
@@ -173,7 +173,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#7852a9", color: "white" }}
             >
-              <img src={me} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
+              <img src={me} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}  />
               <div>
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>

@@ -103,9 +103,13 @@ html, body, #root {
   object-fit: cover;
 }
 
-.group-image {
+.stack-image {
+  width: 50%;
+  height: 100%;
   border-radius: 50%;
-}
+  
+};
+
 
 .btn-hover {
   background-color: #52dcc5;
