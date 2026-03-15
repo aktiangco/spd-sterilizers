@@ -43,7 +43,7 @@ const Gallery = () => {
           <h4> Sterilizer Methods</h4>
           <ul>
             <li>
-              <Link className="nav-item" style={linkStyle} to="/Steam">
+              <Link className="nav-item " style={linkStyle} to="/Steam">
                 <button className="nav-link rounded method-link">Steam</button>
               </Link>
             </li>

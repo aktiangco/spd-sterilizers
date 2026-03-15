@@ -92,7 +92,7 @@ const Contact = () => {
             </Form.Group>
 
             <Button
-              className="rounded"
+              className="rounded custom-btn btn-hover"
               type="submit"
               style={{
                 backgroundColor: "#52dcc5",

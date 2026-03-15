@@ -37,7 +37,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "black", color: "white" }}
             >
-              <img src={john} className="section-image group-image" />
+              <img src={john} className="section-image group-image" style={{ height: " 150px", width: "150px" }} />
               <div>
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
@@ -45,7 +45,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "white",
                     border: "none",
@@ -65,7 +65,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "blue", color: "white" }}
             >
-              <img src={adiel} className="section-image group-image" />
+              <img src={adiel} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
               <div>
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
@@ -73,7 +73,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "white",
                     border: "none",
@@ -92,7 +92,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#50c878", color: "black" }}
             >
-              <img src={john} className="section-image group-image" />
+              <img src={john} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
               <div>
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
@@ -100,7 +100,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "black",
                     border: "none",
@@ -119,7 +119,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "red", color: "black" }}
             >
-              <img src={cesar} className="section-image group-image" />
+              <img src={cesar} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
               <div>
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
@@ -127,7 +127,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "black",
                     border: "none",
@@ -146,7 +146,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "pink", color: "black" }}
             >
-              <img src={vinessa} className="section-image group-image" />
+              <img src={vinessa} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
               <div>
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
@@ -154,7 +154,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "black",
                     border: "none",
@@ -173,7 +173,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#7852a9", color: "white" }}
             >
-              <img src={me} className="section-image group-image" />
+              <img src={me} className="section-image group-image" style={{ height: " 150px", width: "150px" }}  />
               <div>
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>
@@ -181,7 +181,7 @@ const Group = () => {
                   href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded custom-btn"
+                  className="rounded custom-btn btn-hover"
                   style={{
                     backgroundColor: "white",
                     border: "none",

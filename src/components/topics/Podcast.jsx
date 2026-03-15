@@ -27,7 +27,7 @@ function Podcast() {
                 </h3>
                 <div style={{ padding: "5px" }}>
                   <a
-                    className="rounded custom-btn"
+                    className="rounded custom-btn btn-hover"
                     style={{
                       backgroundColor: "#52dcc5",
                       border: "none",
@@ -43,6 +43,7 @@ function Podcast() {
                 </div>
               </div>
             </div>
+            <br></br>
                       <Card.Text>
                       The culture within the Operating Room (OR) and the Sterile Processing Department (SPD) is built on teamwork, communication, and a shared commitment to patient safety. Although these departments perform different roles, they are closely connected through the instruments used during surgical procedures. The OR depends on SPD to properly clean, inspect, assemble, and sterilize surgical instruments so they are safe for use. At the same time, SPD relies on the OR staff to handle instruments carefully after procedures and return them for proper reprocessing. A strong culture of respect and collaboration between these departments helps ensure that surgical instruments are always safe and ready when needed.
                       </Card.Text>

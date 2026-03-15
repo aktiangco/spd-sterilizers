@@ -18,8 +18,8 @@ const About = () => {
                 src={profile}
                 alt="Allan Kris Tiangco"
                 style={{
-                  width: "120px",
-                  height: "120px",
+                  width: "150px",
+                  height: "150px",
                   border: "2px solid black",
                   borderRadius: "50%",
                   objectFit: "cover",
@@ -30,6 +30,7 @@ const About = () => {
                 <h4>Medtek College Hayward Student</h4>
               </div>
             </div>
+            <br></br>
             <Card.Text>
               I am a dedicated and reliable professional with over 20 years of
               experience working in healthcare logistics, supply chain, and

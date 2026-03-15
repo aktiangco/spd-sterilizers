@@ -46,6 +46,8 @@ html, body, #root {
   gap: 8px;
 }
 
+
+
 .navbar-dark .custom-btn {
   background-color: #52dcc5;
   border: none;
@@ -79,6 +81,8 @@ html, body, #root {
   height: 100%;
 }
 
+
+
 .section-bubble {
   background: #52dcc5;
   color: black;
@@ -92,15 +96,30 @@ html, body, #root {
 }
 
 .section-image {
-  width: 120px;
-  height: 120px;
-  border: 2px solid black;
+  width: 30%;
+  height: 30%;
+  
   border-radius: 5%;
   object-fit: cover;
 }
 
 .group-image {
   border-radius: 50%;
+}
+
+.btn-hover {
+  background-color: #52dcc5;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+  background-color: #72463e;
+  color: white;
+  transform: scale(1.1);
 }
 
 

@@ -17,7 +17,7 @@ const Home = () => {
             <Image
               style={{
                 width: "100%",
-                height: "400px",
+                height: "450px",
                 objectFit: "cover",
                 borderRadius: "10px",
                 border: "1px black solid",
@@ -39,7 +39,7 @@ const Home = () => {
           <Card.Text style={{ display: "flex", gap: "15px" }}>
             <Link to="/gallery">
               <button
-                className="rounded custom-btn"
+                className="rounded custom-btn btn-hover"
                 style={{
                   backgroundColor: "#52dcc5",
                   border: "none",
@@ -52,7 +52,7 @@ const Home = () => {
 
             <Link to="/podcast">
               <button
-                className="rounded custom-btn"
+                className="rounded custom-btn btn-hover"
                 style={{
                   backgroundColor: "#52dcc5",
                   border: "none",
