@@ -7,7 +7,7 @@ import adiel from "../../assets/profile/adiel.png";
 import vinessa from "../../assets/profile/vinessa.png";
 import john from "../../assets/profile/john.png";
 import cesar from "../../assets/profile/cesar.png";
-//import eric from "../../assets/profile/eric.png";
+import eric from "../../assets/profile/eric.png";
 
 const Group = () => {
   return (
@@ -37,7 +37,7 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "black", color: "white" }}
             >
-              <img src={john} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}/>
+              <img src={eric} style={{ height: " 150px", width: "150px", borderRadius:"50%" }}/>
               <div>
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
