@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.da9fa60a.css",
-    "main.js": "/static/js/main.55a09fe3.js",
+    "main.js": "/static/js/main.d3ac5ebb.js",
     "static/media/me.png": "/static/media/me.b2f289c194fd9295cd63.png",
     "static/media/wrapper.png": "/static/media/wrapper.517e76c862cc9ba6363a.png",
     "static/media/ChatGPT.png": "/static/media/ChatGPT.47193fab546b53ca1f1c.png",
@@ -25,6 +25,7 @@
     "static/media/ozone-machine.png": "/static/media/ozone-machine.ed3d1228743fb0767cd7.png",
     "static/media/steam-autoclave.png": "/static/media/steam-autoclave.d46a55151f8b2bd83f80.png",
     "static/media/steam-bi.png": "/static/media/steam-bi.e4f5fef0c47bbe6736d9.png",
+    "static/media/eric.png": "/static/media/eric.9ea4ed0150af5d461f49.png",
     "static/media/dryheat-machine.png": "/static/media/dryheat-machine.8e926281dc064e9b75b8.png",
     "static/media/steam-unloading.png": "/static/media/steam-unloading.912e7660c36d0d9f6c5e.png",
     "static/media/eo-machine.png": "/static/media/eo-machine.5a045bbdc1cdf0a181d5.png",
@@ -38,10 +39,10 @@
     "static/media/vpro-machine.png": "/static/media/vpro-machine.6bee7bf9d3b9d0511e99.png",
     "index.html": "/index.html",
     "main.da9fa60a.css.map": "/static/css/main.da9fa60a.css.map",
-    "main.55a09fe3.js.map": "/static/js/main.55a09fe3.js.map"
+    "main.d3ac5ebb.js.map": "/static/js/main.d3ac5ebb.js.map"
   },
   "entrypoints": [
     "static/css/main.da9fa60a.css",
-    "static/js/main.55a09fe3.js"
+    "static/js/main.d3ac5ebb.js"
   ]
 }
