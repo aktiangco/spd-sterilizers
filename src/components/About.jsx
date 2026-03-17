@@ -66,16 +66,7 @@ const About = () => {
               <Instagram />
             </a>
           </div>
-          <div style={{ padding: "10px" }}>
-            <a
-              style={{ color: "white" }}
-              href="https://aktiangco.github.io/portfolio/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Person />
-            </a>
-          </div>
+         
         </div>
               </div>
             </div>

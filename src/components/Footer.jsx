@@ -16,6 +16,10 @@ const Footer = () => {
       <div>
         <div style={{ display: "flex" }}>
           <div style={{ padding: "10px" }}>
+          Created by Allan
+          </div>
+         
+          <div style={{ padding: "10px" }}>
             <a
               style={{ color: "white" }}
               href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"
@@ -43,16 +47,6 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <Instagram />
-            </a>
-          </div>
-          <div style={{ padding: "10px" }}>
-            <a
-              style={{ color: "white" }}
-              href="https://aktiangco.github.io/portfolio/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Person />
             </a>
           </div>
         </div>
