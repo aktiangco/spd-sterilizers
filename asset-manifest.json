@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.11c079ea.css",
-    "main.js": "/static/js/main.39f3ad02.js",
+    "main.js": "/static/js/main.86b73199.js",
+    "static/media/group3.png": "/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/static/media/cesar2.89a53700a311a0e0cf11.png",
     "static/media/me2.png": "/static/media/me2.0b928562c41f193c796f.png",
-    "static/media/group2.png": "/static/media/group2.e8b8fddd23b11d43f8cf.png",
     "static/media/iuss-monitor.png": "/static/media/iuss-monitor.1f998065c1be975f2cf2.png",
     "static/media/iuss-ci.png": "/static/media/iuss-ci.53362f4a05391934060b.png",
     "static/media/iuss-bi.png": "/static/media/iuss-bi.8b8b0130b7693574e01b.png",
@@ -54,10 +54,10 @@
     "static/media/vpro-machine.png": "/static/media/vpro-machine.6141658a7ca710af261b.png",
     "index.html": "/index.html",
     "main.11c079ea.css.map": "/static/css/main.11c079ea.css.map",
-    "main.39f3ad02.js.map": "/static/js/main.39f3ad02.js.map"
+    "main.86b73199.js.map": "/static/js/main.86b73199.js.map"
   },
   "entrypoints": [
     "static/css/main.11c079ea.css",
-    "static/js/main.39f3ad02.js"
+    "static/js/main.86b73199.js"
   ]
 }
