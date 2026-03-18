@@ -39,7 +39,7 @@ const Iuss = () => {
                   }}
                 />
               <div>
-                <h2>Facts About IUSS</h2>
+                <h2>IUSS Sterilization Facts:</h2>
                 <ul>
                   <li>
                     Immediate-Use Steam Sterilization (IUSS) is the current term
@@ -528,7 +528,7 @@ const Iuss = () => {
                 />
                               </div>
               <div>
-                <h2>How to test IUSS Sterilizer</h2>
+                <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring
                 </h4>

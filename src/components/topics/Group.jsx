@@ -10,7 +10,7 @@ import cesar from "../../assets/images/profile/cesar2.png";
 import eric from "../../assets/images/profile/eric2.png";
 import {
   Google,
-  FileEarmarkPptFill 
+  FolderSymlinkFill,
 } from "react-bootstrap-icons";
 
 const Group = () => {
@@ -58,8 +58,9 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                  <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
                 </a>
               </div>
             </div>
@@ -87,8 +88,10 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                 <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
+                
                 </a>
               </div>
             </div>
@@ -115,8 +118,10 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                 <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
+                
                 </a>
               </div>
             </div>
@@ -143,8 +148,10 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                 <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
+                
                 </a>
               </div>
             </div>
@@ -171,8 +178,10 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                 <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
+                
                 </a>
               </div>
             </div>
@@ -199,8 +208,10 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google />
-                <FileEarmarkPptFill />
+                 <Google size={20}/>
+                <FolderSymlinkFill size={20}/>
+                
+                
                 </a>
               </div>
             </div>

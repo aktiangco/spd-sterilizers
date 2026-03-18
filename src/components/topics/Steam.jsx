@@ -38,7 +38,7 @@ const Steam = () => {
                 }}
               />
               <div>
-                <h2>Facts About Steam Sterilizers</h2>
+                <h2>Steam Sterilizers Facts:</h2>
                 <ul>
                   <li>
                     Steam sterilization is the most widely used sterilization
@@ -569,7 +569,7 @@ const Steam = () => {
 className="section-bubble"
             >
               <div>
-                <h2>Testing Sterilizer</h2>
+                <h2>How to test Sterilizer</h2>
                 <div>
                   <h4 style={{ textDecoration: "underline" }}>
                     1. Physical monitor - Machine Reading
