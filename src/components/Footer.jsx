@@ -1,4 +1,5 @@
 import React from "react";
+import straw from "../assets/images/anyaa.png";
 import {
   Instagram,
   Linkedin,
@@ -45,6 +46,19 @@ const Footer = () => {
               <Instagram />
             </a>
           </div>
+          <div>
+            <img
+                  src={straw}
+                  alt="Allan Kris Tiangco"
+                  style={{
+                    width: "50pk",
+                    height: "50px",
+                    borderRadius: "10px",
+                    objectFit: "cover",
+                    paddingLeft: "5%",
+                  }}
+            />
+            </div>
         </div>
       </div>
       <div>

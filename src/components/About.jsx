@@ -81,7 +81,7 @@ const About = () => {
                   height: "100px",
                   borderRadius: "10px",
                   objectFit: "cover",
-                  paddingLeft: "5%",
+                 
                 }}
               />
                     </div>
