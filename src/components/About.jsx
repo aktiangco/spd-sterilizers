@@ -72,8 +72,8 @@ const About = () => {
                         src={straw}
                         alt="Allan Kris Tiangco"
                         style={{
-                          width: "100%",
-                          height: "100px",
+                          width: "100px",
+                          height: "50%",
                           borderRadius: "10px",
                           objectFit: "cover",
                         }}
