@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medtek/static/css/main.51c1e786.css",
-    "main.js": "/medtek/static/js/main.239f0c90.js",
+    "main.js": "/medtek/static/js/main.1e10731b.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -39,6 +39,7 @@
     "static/media/iuss-loading.png": "/medtek/static/media/iuss-loading.ac66235f2fc227805e70.png",
     "static/media/all.png": "/medtek/static/media/all.8dd55e93a1b4ece7d061.png",
     "static/media/ltgp-wrapper.png": "/medtek/static/media/ltgp-wrapper.53941a51f9bb52ecad52.png",
+    "static/media/luffy.gif": "/medtek/static/media/luffy.51006e719b60fc1ece89.gif",
     "static/media/ltgp-unloading.png": "/medtek/static/media/ltgp-unloading.be80e36a1ab204bcd8cc.png",
     "static/media/iuss-cycle2.png": "/medtek/static/media/iuss-cycle2.23b406ea6ddb1844296b.png",
     "static/media/iuss-cycle.png": "/medtek/static/media/iuss-cycle.0a005c0deec7b8205cd8.png",
@@ -71,7 +72,6 @@
     "static/media/ltgp-safety.png": "/medtek/static/media/ltgp-safety.439ce29ed50c60aa4430.png",
     "static/media/pro-con.png": "/medtek/static/media/pro-con.468a800d5e245c0e8056.png",
     "static/media/steam-autoclave.png": "/medtek/static/media/steam-autoclave.15b2943a130083356168.png",
-    "static/media/ozone-machine.png": "/medtek/static/media/ozone-machine.ed3d1228743fb0767cd7.png",
     "static/media/steam-bowie.png": "/medtek/static/media/steam-bowie.0721dce6c7c805af5494.png",
     "static/media/vpro-machine2.png": "/medtek/static/media/vpro-machine2.cc3bc2ca24bcdb6490c1.png",
     "static/media/drytray.png": "/medtek/static/media/drytray.0d38d56f60a767762121.png",
@@ -84,15 +84,17 @@
     "static/media/steam-loading.png": "/medtek/static/media/steam-loading.e380f2772376447ff36f.png",
     "static/media/ltgp-nx.png": "/medtek/static/media/ltgp-nx.3762917eebb66db60717.png",
     "static/media/ltgp-machine.png": "/medtek/static/media/ltgp-machine.ce92af5283bb1b2c0151.png",
+    "static/media/ozone-machine.png": "/medtek/static/media/ozone-machine.c6308aa284d7dcd748f4.png",
+    "static/media/all2.png": "/medtek/static/media/all2.ecb23b63e7501710d6cf.png",
     "static/media/404.jpg": "/medtek/static/media/404.31898163934ab6672d1b.jpg",
     "static/media/steam-machine.png": "/medtek/static/media/steam-machine.d747f3c210b6f0bc8f59.png",
     "static/media/eo-bi.png": "/medtek/static/media/eo-bi.49f212388947494d71d3.png",
     "index.html": "/medtek/index.html",
     "main.51c1e786.css.map": "/medtek/static/css/main.51c1e786.css.map",
-    "main.239f0c90.js.map": "/medtek/static/js/main.239f0c90.js.map"
+    "main.1e10731b.js.map": "/medtek/static/js/main.1e10731b.js.map"
   },
   "entrypoints": [
     "static/css/main.51c1e786.css",
-    "static/js/main.239f0c90.js"
+    "static/js/main.1e10731b.js"
   ]
 }
