@@ -23,13 +23,8 @@
         }
       }
     
-      window.addEventListener("load", function () {
-        gcTrack();
-      });
-    
-      window.addEventListener("hashchange", function () {
-        gcTrack();
-      });
+      window.addEventListener("load", gcTrack);
+      window.addEventListener("hashchange", gcTrack);
     </script>
     
     <script

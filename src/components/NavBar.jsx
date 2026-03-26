@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import medtek from "../assets/images/medtek.png";
 import { Asterisk } from "react-bootstrap-icons";
-// import VisitCounter from "./VisitCounter";
+import VisitCounter from "./VisitCounter";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -41,73 +41,71 @@ const NavBar = () => {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" onClick={closeMenu}>
-              Home
-            </Nav.Link>
+  <Nav className="me-auto">
+    <Nav.Link as={Link} to="/" onClick={closeMenu}>
+      Home
+    </Nav.Link>
 
-            <NavDropdown title="Sterilizer Project" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/gallery" onClick={closeMenu}>
-                About Sterilization
-              </NavDropdown.Item>
+    <NavDropdown title="Sterilizer Project" id="basic-nav-dropdown">
+      <NavDropdown.Item as={Link} to="/gallery" onClick={closeMenu}>
+        About Sterilization
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/steam" onClick={closeMenu}>
-                <Asterisk size={10} /> Steam
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/steam" onClick={closeMenu}>
+        <Asterisk size={10} /> Steam
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/eo" onClick={closeMenu}>
-                <Asterisk size={10} /> Ethylene Oxide (EO)
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/eo" onClick={closeMenu}>
+        <Asterisk size={10} /> Ethylene Oxide (EO)
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/ltgp" onClick={closeMenu}>
-                <Asterisk size={10} /> Low-Temp Gas Plasma (LTGP)
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/ltgp" onClick={closeMenu}>
+        <Asterisk size={10} /> Low-Temp Gas Plasma (LTGP)
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/vpro" onClick={closeMenu}>
-                <Asterisk size={10} /> Low-Temp Hydrogen Peroxide (V-PRO)
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/vpro" onClick={closeMenu}>
+        <Asterisk size={10} /> Low-Temp Hydrogen Peroxide (V-PRO)
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/ozone" onClick={closeMenu}>
-                <Asterisk size={10} /> Hydrogen Peroxide Ozone
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/ozone" onClick={closeMenu}>
+        <Asterisk size={10} /> Hydrogen Peroxide Ozone
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/iuss" onClick={closeMenu}>
-                <Asterisk size={10} /> IUSS
-              </NavDropdown.Item>
+      <NavDropdown.Item as={Link} to="/iuss" onClick={closeMenu}>
+        <Asterisk size={10} /> IUSS
+      </NavDropdown.Item>
 
-              <NavDropdown.Item as={Link} to="/dryheat" onClick={closeMenu}>
-                <Asterisk size={10} /> Dry Heat
-              </NavDropdown.Item>
-            </NavDropdown>
+      <NavDropdown.Item as={Link} to="/dryheat" onClick={closeMenu}>
+        <Asterisk size={10} /> Dry Heat
+      </NavDropdown.Item>
+    </NavDropdown>
 
-            <Nav.Link as={Link} to="/podcast" onClick={closeMenu}>
-              Podcast Report
-            </Nav.Link>
+    <Nav.Link as={Link} to="/podcast" onClick={closeMenu}>
+      Podcast Report
+    </Nav.Link>
 
-            <Nav.Link as={Link} to="/group" onClick={closeMenu}>
-              Group Project
-            </Nav.Link>
-            <Nav.Link as={Link} to="/photo" onClick={closeMenu}>
-              Group Photos
-            </Nav.Link>
+    <Nav.Link as={Link} to="/group" onClick={closeMenu}>
+      Group Project
+    </Nav.Link>
 
-            <Nav.Link as={Link} to="/about" onClick={closeMenu}>
-              About Me
-            </Nav.Link>
+    <Nav.Link as={Link} to="/photo" onClick={closeMenu}>
+      Group Photos
+    </Nav.Link>
 
-            <Nav.Link as={Link} to="/contact" onClick={closeMenu}>
-              Contact
-            </Nav.Link>
-           {/* <div className="d-flex align-items-center">
+    <Nav.Link as={Link} to="/about" onClick={closeMenu}>
+      About Me
+    </Nav.Link>
+
+    <Nav.Link as={Link} to="/contact" onClick={closeMenu}>
+      Contact
+    </Nav.Link>
+  </Nav>
+
+  <div className="ms-auto d-flex align-items-center">
     <VisitCounter />
-  </div> */} 
-            <div className="ms-auto d-flex align-items-center">
-    <div id="gc-counter" className="nav-counter"></div>
   </div>
-          </Nav>
-        </Navbar.Collapse>
+</Navbar.Collapse>
       </Container>
     </Navbar>
   );

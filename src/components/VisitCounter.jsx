@@ -2,29 +2,26 @@ import { useEffect, useState } from "react";
 
 function VisitCounter() {
   const [count, setCount] = useState(null);
-  const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("https://counterapi.dev/api/aktiangco/medtek-navbar/up")
+    fetch("https://aktiangco.goatcounter.com/counter/TOTAL.json")
       .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error: ${res.status}`);
-        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
       .then((data) => {
-        console.log("Counter response:", data);
+        console.log("GoatCounter response:", data);
         setCount(data.count);
       })
       .catch((err) => {
-        console.error("Counter error:", err);
-        setError("Unavailable");
+        console.error("GoatCounter error:", err);
+        setCount("Unavailable");
       });
   }, []);
 
   return (
     <span className="nav-counter">
-      {error ? `Visitors: ${error}` : `Visitors: ${count !== null ? count : "..."}`}
+      Visitors: {count === null ? "..." : count}
     </span>
   );
 }
