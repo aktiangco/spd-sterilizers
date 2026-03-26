@@ -18,7 +18,7 @@
       function gcTrack() {
         if (window.goatcounter && window.goatcounter.count) {
           window.goatcounter.count({
-            path: window.location.pathname + window.location.search + window.location.hash
+            path: window.location.hash || "#/"
           });
         }
       }
@@ -32,6 +32,7 @@
       async
       src="https://gc.zgo.at/count.js">
     </script>
+   
 
     <title>Allan's Projects</title>
   </head>
