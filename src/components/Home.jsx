@@ -41,7 +41,9 @@ const Home = () => {
                 instrument decontamination, sterilization, and infection
                 prevention in healthcare settings.
               </Card.Text>
+              
               <Card.Text style={{ display: "flex", gap: "15px" }}>
+              <div className="section-bubble nav-link rounded method-link">
                 <Link to="/gallery">
                   <button
                     className="rounded custom-btn btn-hover"
@@ -49,12 +51,13 @@ const Home = () => {
                       backgroundColor: "#52dcc5",
                       border: "none",
                       color: "black",
+                    
                     }}
                   >
                     Sterilization Project
                   </button>
                 </Link>
-
+              
                 <Link to="/podcast">
                   <button
                     className="rounded custom-btn btn-hover"
@@ -90,8 +93,10 @@ const Home = () => {
                   >
                     Group Photos
                   </button>
-                </Link>
-              </Card.Text>
+                  </Link>
+                  </div>
+                </Card.Text>
+                
             </div>
           </div>
         </Card.Body>

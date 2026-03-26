@@ -2,6 +2,7 @@ import React from "react";
 import straw from "../assets/images/anyaa.png";
 import { Instagram, Linkedin, Github } from "react-bootstrap-icons";
 
+
 const Footer = () => {
   return (
     <div

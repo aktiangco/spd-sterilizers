@@ -315,3 +315,16 @@ li {
     max-width: 250px;
   }
 }
+
+.nav-counter {
+  color: #52dcc5;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .nav-counter {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}

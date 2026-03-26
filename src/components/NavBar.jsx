@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import medtek from "../assets/images/medtek.png";
 import { Asterisk } from "react-bootstrap-icons";
+import VisitCounter from "./VisitCounter";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -99,6 +100,9 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/contact" onClick={closeMenu}>
               Contact
             </Nav.Link>
+            <div className="d-flex align-items-center">
+    <VisitCounter />
+  </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
