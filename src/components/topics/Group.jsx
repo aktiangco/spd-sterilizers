@@ -129,7 +129,7 @@ const Group = () => {
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
                 <a
-                  href="https://aktiangco.github.io/medtek/#/error" // update link here
+                  href="https://docs.google.com/presentation/d/1sLInIXCtqKsJvWZEGp1i0Q1AiCY6b1tgNxaDmIrPKRc/edit?slide=id.p1#slide=id.p1" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -199,7 +199,7 @@ const Group = () => {
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
                 <a
-                  href="https://aktiangco.github.io/medtek/#/error" // update link here
+                  href="https://drive.google.com/file/d/1QkcTsTK77JgUD6T_9N54Q9-YrfwcZhkF/view" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"

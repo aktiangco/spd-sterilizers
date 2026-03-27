@@ -83,6 +83,18 @@ const Home = () => {
                   >
                     Group Project
                   </button>
+                  </Link>
+                  <Link to="/instrumentTable">
+                  <button
+                    className="rounded custom-btn btn-hover"
+                    style={{
+                      backgroundColor: "#52dcc5",
+                      border: "none",
+                      color: "black",
+                    }}
+                  >
+                    Instrument Project
+                  </button>
                 </Link>
                 <Link to="/photo">
                   <button

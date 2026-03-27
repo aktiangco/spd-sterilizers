@@ -22,9 +22,9 @@ function Photo() {
           marginTop: "20px",
         }}
       >
-        <Card.Body>
-          <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
-            Medtek students Batch feb.2026
+        <Card.Body >
+          <h1 style={{ textDecoration: "underline", color: "#ffffff", justifyContent: "center" }}>
+            Medtek Students (Batch Feb.2026)
           </h1>
 
           <div
