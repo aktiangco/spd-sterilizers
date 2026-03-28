@@ -40,14 +40,8 @@ const Presentation = () => {
               
               </div>
               <div>
-                <h4>by Allan Tiangco</h4>
-              
+                <h4>by Allan Tiangco</h4>             
               </div>
-                <br/>
-              <br />
-              <br/>
-                <br/>
-
             </div>
           </Card.Text>
           <Card.Title className="font-weight-bold">

@@ -51,36 +51,22 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" onClick={closeMenu} title="Home">
-              <img
-                src={home}
-                alt="Home"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/" onClick={closeMenu} className="nav-icon">
+              <img src={home} alt="Home" className="nav-img" />
+              <span className="nav-label">Home</span>
             </Nav.Link>
 
             <NavDropdown
+
               title={
-                <img
-                  src={machine}
-                  alt="Sterilizer Project"
-                  style={{
-                    width: "25px",
-                    height: "25px",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
+                <div className="nav-icon">
+                  <img src={machine} alt="Sterilizer Project" className="nav-img" />
+                  <span className="nav-label">Sterilizer Project</span>
+                </div>
               }
               id="basic-nav-dropdown"
-              titleProps={{ title: "Sterilizer Project" }}
             >
+            
               <NavDropdown.Item as={Link} to="/gallery" onClick={closeMenu}>
                 About Sterilizer
               </NavDropdown.Item>
@@ -114,119 +100,36 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link
-              as={Link}
-              to="/podcast"
-              onClick={closeMenu}
-              title="Podcast Report"
-            >
-              <img
-                src={podcast}
-                alt="Podcast Report"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/podcast" onClick={closeMenu} className="nav-icon">
+              <img src={podcast} alt="Podcast Report" className="nav-img" />
+              <span className="nav-label">Podcast Report</span>
             </Nav.Link>
 
-            <Nav.Link
-              as={Link}
-              to="/group"
-              onClick={closeMenu}
-              title="Group Project"
-            >
-              <img
-                src={group}
-                alt="Group Project"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/group" onClick={closeMenu} className="nav-icon">
+              <img src={group} alt="Group Project" className="nav-img" />
+              <span className="nav-label">Group Project</span>
             </Nav.Link>
 
-            <Nav.Link
-              as={Link}
-              to="/instrumentTable"
-              onClick={closeMenu}
-              title="Instrument Project"
-            >
-              <img
-                src={instrument}
-                alt="Instrument Project"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/instrumentTable" onClick={closeMenu} className="nav-icon">
+              <img src={instrument} alt="Instrument Project" className="nav-img" />
+              <span className="nav-label">Instrument Project</span>
             </Nav.Link>
 
-            <Nav.Link
-              as={Link}
-              to="/photo"
-              onClick={closeMenu}
-              title="Photo Gallery"
-            >
-              <img
-                src={photo}
-                alt="Photo Gallery"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/photo" onClick={closeMenu} className="nav-icon">
+              <img src={photo} alt="Photo Gallery" className="nav-img" />
+              <span className="nav-label">Photo Gallery</span>
             </Nav.Link>
 
-            <Nav.Link
-              as={Link}
-              to="/about"
-              onClick={closeMenu}
-              title="About me"
-            >
-              <img
-                src={user}
-                alt="About me"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/about" onClick={closeMenu} className="nav-icon">
+              <img src={user} alt="About me" className="nav-img" />
+              <span className="nav-label">About me</span>
             </Nav.Link>
 
-            <Nav.Link
-              as={Link}
-              to="/contact"
-              onClick={closeMenu}
-              title="Contact"
-            >
-              <img
-                src={contact}
-                alt="Contact"
-                className="section-image"
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+            <Nav.Link as={Link} to="/contact" onClick={closeMenu} className="nav-icon">
+              <img src={contact} alt="Contact me" className="nav-img" />
+              <span className="nav-label">Contact me</span>
             </Nav.Link>
+          
           </Nav>
 
           <div className="ms-auto d-flex align-items-center">

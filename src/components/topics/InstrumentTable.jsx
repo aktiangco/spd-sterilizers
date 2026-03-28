@@ -303,61 +303,71 @@ function InstrumentTable() {
   ];
 
   return (
-    <div className="product-table-wrapper">
-      <h2>New Instrument Catalog</h2>
-
-      <Table bordered hover responsive className="product-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Product No.</th>
-            <th>Manufacturer</th>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Photo</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          {products.map((product) => (
-            <tr key={product.id}>
-              <td>{product.id}</td>
-              <td>{product.productNo}</td>
-              <td>{product.manufacturer}</td>
-              <td>{product.description}</td>
-              <td>{product.category}</td>
-
-              <td>
-                <div className="photo-hover-box">
-                  <span className="photo-icon">
-                    <ImageIcon size={20} />
-                  </span>
-
-                  {product.photo && (
-                    <div className="photo-preview">
-                      <img
-                        src={product.photo}
-                        alt="preview"
-                        className="preview-image"
-                      />
-                    </div>
-                  )}
-                </div>
-              </td>
-
-              <td>
-                {product.link && (
-                  <a href={product.link} target="_blank" rel="noreferrer">
-                    Open
-                  </a>
-                )}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </Table>
+    <div className="catalog-page">
+  <div className="product-table-wrapper catalog-table-box">
+    <div className="catalog-header">
+      <h2 className="catalog-title">New Instrument Catalog</h2>
+      <p className="catalog-subtitle">Product reference list by category</p>
     </div>
+
+    <Table bordered hover responsive className="product-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Product No.</th>
+          <th>Manufacturer</th>
+          <th>Description</th>
+          <th>Category</th>
+          <th>Photo</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {products.map((product) => (
+          <tr key={product.id}>
+            <td>{product.id}</td>
+            <td>{product.productNo}</td>
+            <td>{product.manufacturer}</td>
+            <td>{product.description}</td>
+            <td>{product.category}</td>
+
+            <td>
+              <div className="photo-hover-box">
+                <span className="photo-icon">
+                  <ImageIcon size={18} />
+                </span>
+
+                {product.photo && (
+                  <div className="photo-preview">
+                    <img
+                      src={product.photo}
+                      alt={product.productNo}
+                      className="preview-image"
+                    />
+                  </div>
+                )}
+              </div>
+            </td>
+
+            <td>
+              {product.link && (
+                <a
+                  href={product.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="product-link"
+                >
+                  Open
+                </a>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </Table>
+  </div>
+</div>
   );
 }
 
