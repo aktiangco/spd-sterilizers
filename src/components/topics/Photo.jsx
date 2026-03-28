@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Photo() {
   const photos = useMemo(() => {
     return Array.from(
-      { length: 29 },
+      { length: 45 },
       (_, i) => `${process.env.PUBLIC_URL}/images/${i + 1}.png`
     ).sort(() => Math.random() - 0.5);
   }, []);
@@ -15,7 +15,7 @@ function Photo() {
       <Card className="custom-card photo-card">
         <Card.Body>
           <h1 className="photo-title">
-            Medtek Students (Batch Feb.2026)
+            Medtek Students (Feb.2026)
           </h1>
 
           <div className="photo-carousel-wrapper">

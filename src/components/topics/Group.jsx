@@ -23,8 +23,9 @@ const Group = () => {
                 color: "#ffffff",
               }}
             >
-              Sterilizer's Group Project
+              The Clean Pean Group Project
             </h1>
+          
           </Card.Title>
           <Card.Text style={{ textAlign: "center" }}>
             <Image
@@ -39,7 +40,7 @@ const Group = () => {
             />
             <br />
             <br />
-            <h2>The Clean Pean Team</h2>
+           
           </Card.Text>
           <Card.Text>
             <div
