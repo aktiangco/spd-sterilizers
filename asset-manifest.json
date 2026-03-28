@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/medtek/static/css/main.4770aa4c.css",
-    "main.js": "/medtek/static/js/main.bbcbea69.js",
+    "main.css": "/medtek/static/css/main.1fa80867.css",
+    "main.js": "/medtek/static/js/main.f4f8a724.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -69,6 +69,7 @@
     "static/media/steam-dynamic.png": "/medtek/static/media/steam-dynamic.c078330df9ba71f36dd3.png",
     "static/media/eo-autoclave.png": "/medtek/static/media/eo-autoclave.cefd58511843cba5e2df.png",
     "static/media/dryheat-cycle2.png": "/medtek/static/media/dryheat-cycle2.20e8d1412efaa529227d.png",
+    "static/media/jcaho.png": "/medtek/static/media/jcaho.a978e567eb54d1f5201b.png",
     "static/media/ltgp-safety.png": "/medtek/static/media/ltgp-safety.439ce29ed50c60aa4430.png",
     "static/media/pro-con.png": "/medtek/static/media/pro-con.468a800d5e245c0e8056.png",
     "static/media/steam-autoclave.png": "/medtek/static/media/steam-autoclave.15b2943a130083356168.png",
@@ -99,11 +100,11 @@
     "static/media/gallery.png": "/medtek/static/media/gallery.7cab3f2453d183dff56f.png",
     "static/media/home.png": "/medtek/static/media/home.5cfbb9dba566863d62d0.png",
     "index.html": "/medtek/index.html",
-    "main.4770aa4c.css.map": "/medtek/static/css/main.4770aa4c.css.map",
-    "main.bbcbea69.js.map": "/medtek/static/js/main.bbcbea69.js.map"
+    "main.1fa80867.css.map": "/medtek/static/css/main.1fa80867.css.map",
+    "main.f4f8a724.js.map": "/medtek/static/js/main.f4f8a724.js.map"
   },
   "entrypoints": [
-    "static/css/main.4770aa4c.css",
-    "static/js/main.bbcbea69.js"
+    "static/css/main.1fa80867.css",
+    "static/js/main.f4f8a724.js"
   ]
 }
