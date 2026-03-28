@@ -199,7 +199,7 @@ const Group = () => {
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
                 <a
-                  href="https://drive.google.com/file/d/1QkcTsTK77JgUD6T_9N54Q9-YrfwcZhkF/view" // update link here
+                  href="https://docs.google.com/presentation/d/1LQVv1s86bxbf8dXtx1BGXQVpzGsMckIfamppu0XH6L4/edit?usp=sharing" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
